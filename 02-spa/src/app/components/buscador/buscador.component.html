@@ -1,0 +1,13 @@
+
+<h1>Buscando: <small>{{ termino }}</small></h1>
+<hr>
+<div class="row animated fadeIn fast" *ngIf="personajes.length==0">
+    <div class="col">
+        <div>
+            NO EXISTEN RESULTADOS CON EL TERMINO: {{ termino }}
+        </div>
+    </div>
+</div>
+<div class="row">
+    <app-personaje-tarjeta class="col-4" [personaje]="personaje" *ngFor="let personaje of personajes;"></app-personaje-tarjeta>
+</div>

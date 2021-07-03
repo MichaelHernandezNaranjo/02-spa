@@ -1,0 +1,15 @@
+<div class="card-columns">
+<div class="card animated fadeIn fast">
+    <img [src]="personaje.img" class="card-img-top img-fluid" [alt]="personaje.nombre" />
+    <div class="card-body">
+      <h5 class="card-title">{{ personaje.nombre }} <small>({{personaje.tipo}})</small>    </h5>
+      <p class="card-text">{{ personaje.bio }}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">{{ personaje.aparicion }}</small>
+      <div class="d-grid gap-2">
+        <button (click)="verPersonaje(personaje.id)" type="button" class="btn btn-outline-primary btn-block" > ver mas... </button>
+      </div>
+    </div>
+  </div>
+</div>
