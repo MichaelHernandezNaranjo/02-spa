@@ -9,4 +9,5 @@ export interface Personaje{
   casa: string;
   idx?: number;
   tipo: string;
+  actor: string;
 }

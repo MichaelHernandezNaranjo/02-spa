@@ -6,6 +6,7 @@ import { APP_ROUTING } from "./app.routes";
 
 // servicios
 import { PersonajesService } from './servicios/personajes.service';
+import { StorageService } from './servicios/storage.service'
 
 // COMPONENTES
 import { AppComponent } from './app.component';
@@ -33,7 +34,8 @@ import { PersonajeTarjetaComponent } from './components/personaje-tarjeta/person
     APP_ROUTING
   ],
   providers: [
-    PersonajesService
+    PersonajesService,
+    StorageService
   ],
   bootstrap: [AppComponent]
 })

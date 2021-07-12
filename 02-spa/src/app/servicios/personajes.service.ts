@@ -12,7 +12,8 @@ export class PersonajesService{
       img: "assets/img/thanos.jpg",
       aparicion: "1973-02-01",
       casa:"Marvel",
-      tipo: "villano"
+      tipo: "villano",
+      actor: "Michael Hernandez"
     },
     {
       id: 2,
@@ -21,7 +22,8 @@ export class PersonajesService{
       img: "assets/img/loki.jpg",
       aparicion: "1962-10-01",
       casa:"Marvel",
-      tipo: "villano"
+      tipo: "villano",
+      actor: "Michael Hernandez"
     },
     {
       id: 3,
@@ -30,7 +32,8 @@ export class PersonajesService{
       img: "assets/img/joker.jpg",
       aparicion: "1962-10-01",
       casa:"DC",
-      tipo: "villano"
+      tipo: "villano",
+      actor: "Michael Hernandez"
     },
     {
       id: 4,
@@ -39,7 +42,8 @@ export class PersonajesService{
       img: "assets/img/aquaman.png",
       aparicion: "1941-11-01",
       casa:"DC",
-      tipo: "heroe"
+      tipo: "heroe",
+      actor: "Michael Hernandez"
     },
     {
       id: 5,
@@ -48,7 +52,8 @@ export class PersonajesService{
       img: "assets/img/batman.png",
       aparicion: "1939-05-01",
       casa:"DC",
-      tipo: "heroe"
+      tipo: "heroe",
+      actor: "Michael Hernandez"
     },
     {
       id: 6,
@@ -57,7 +62,8 @@ export class PersonajesService{
       img: "assets/img/daredevil.png",
       aparicion: "1964-01-01",
       casa: "Marvel",
-      tipo: "heroe"
+      tipo: "heroe",
+      actor: "Michael Hernandez"
     },
     {
       id: 7,
@@ -66,7 +72,8 @@ export class PersonajesService{
       img: "assets/img/hulk.png",
       aparicion: "1962-05-01",
       casa:"Marvel",
-      tipo: "heroe"
+      tipo: "heroe",
+      actor: "Michael Hernandez"
     },
     {
       id: 8,
@@ -75,7 +82,8 @@ export class PersonajesService{
       img: "assets/img/linterna-verde.png",
       aparicion: "1940-06-01",
       casa: "DC",
-      tipo: "heroe"
+      tipo: "heroe",
+      actor: "Michael Hernandez"
     },
     {
       id: 9,
@@ -84,7 +92,8 @@ export class PersonajesService{
       img: "assets/img/spiderman.png",
       aparicion: "1962-08-01",
       casa: "Marvel",
-      tipo: "heroe"
+      tipo: "heroe",
+      actor: "Michael Hernandez"
     },
     {
       id: 10,
@@ -93,7 +102,8 @@ export class PersonajesService{
       img: "assets/img/wolverine.png",
       aparicion: "1974-11-01",
       casa: "Marvel",
-      tipo: "heroe"
+      tipo: "heroe",
+      actor: "Michael Hernandez"
     }
   ];
 
