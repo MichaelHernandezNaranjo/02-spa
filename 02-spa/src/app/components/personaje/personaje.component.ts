@@ -31,12 +31,13 @@ export class PersonajeComponent implements OnInit {
   }
 
   encristar(){
-    if(!this.estado){
-      this.texto = this._storageService.encrypt(this.texto);
-    }else{
-      this.texto = this._storageService.decrypt(this.texto);
-    }
+    // if(!this.estado){
+    //   this.texto = this._storageService.encrypt(this.texto);
+    // }else{
+    //   this.texto = this._storageService.decrypt(this.texto);
+    // }
     this.estado = !this.estado;
+    
   }
 
   

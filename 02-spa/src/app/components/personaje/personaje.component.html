@@ -8,7 +8,7 @@
         <a [routerLink]="['/personajes',personaje.tipo]" class="btn btn-outline-danger btn-block">Regresar</a>
     </div>
     <div class="col-8">
-           <h3>{{personaje.nombre}} <small>({{personaje.tipo}})</small> {{texto}} <a class="btn btn-primary btn-xs" (click)="encristar()">{{!this.estado?"Encriptar":"Desencriptar"}}</a> </h3> 
+           <h3>{{personaje.nombre}} <small>({{personaje.tipo}})</small> {{texto | password :this.estado }} <a class="btn btn-primary btn-xs" (click)="encristar()">{{!this.estado?"Encriptar":"Desencriptar"}}</a> </h3> 
            <hr>
            <p>
                {{personaje.bio}}
