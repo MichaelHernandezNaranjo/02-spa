@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import { PersonajesService } from '../../servicios/personajes.service';
-import { StorageService } from '../../servicios/storage.service'
 
 @Component({
   selector: 'app-personaje',
@@ -17,8 +16,7 @@ export class PersonajeComponent implements OnInit {
 
   constructor(
     private _personajesService: PersonajesService,
-    private _activatedRoute: ActivatedRoute,
-    private _storageService: StorageService
+    private _activatedRoute: ActivatedRoute
   ) {
     
     this._activatedRoute.params.subscribe(params => {
@@ -31,13 +29,7 @@ export class PersonajeComponent implements OnInit {
   }
 
   encristar(){
-    // if(!this.estado){
-    //   this.texto = this._storageService.encrypt(this.texto);
-    // }else{
-    //   this.texto = this._storageService.decrypt(this.texto);
-    // }
     this.estado = !this.estado;
-    
   }
 
   

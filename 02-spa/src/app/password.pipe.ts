@@ -11,11 +11,6 @@ export class PasswordPipe implements PipeTransform {
     }
     console.log(value);
     console.log(estado);
-    // Replace with the specified character
-    // if (replaceChar) {
-    //   return replaceChar.repeat(value.length);
-    // }
-    // Replace value with asterisks
     if(estado){
       return '*'.repeat(value.length);
     }else{
