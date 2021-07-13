@@ -13,7 +13,7 @@ export class PersonajesService{
       aparicion: "1973-02-01",
       casa:"Marvel",
       tipo: "villano",
-      actor: "Michael Hernandez"
+      actor: "Josh Brolin"
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ export class PersonajesService{
       aparicion: "1962-10-01",
       casa:"Marvel",
       tipo: "villano",
-      actor: "Michael Hernandez"
+      actor: "Tom Hiddleston"
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export class PersonajesService{
       aparicion: "1962-10-01",
       casa:"DC",
       tipo: "villano",
-      actor: "Michael Hernandez"
+      actor: "Joaquin Phoenix"
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ export class PersonajesService{
       aparicion: "1941-11-01",
       casa:"DC",
       tipo: "heroe",
-      actor: "Michael Hernandez"
+      actor: "Jason Momoa"
     },
     {
       id: 5,
@@ -53,7 +53,7 @@ export class PersonajesService{
       aparicion: "1939-05-01",
       casa:"DC",
       tipo: "heroe",
-      actor: "Michael Hernandez"
+      actor: "Ben Affleck"
     },
     {
       id: 6,
@@ -73,7 +73,7 @@ export class PersonajesService{
       aparicion: "1962-05-01",
       casa:"Marvel",
       tipo: "heroe",
-      actor: "Michael Hernandez"
+      actor: "Mark Ruffalo"
     },
     {
       id: 8,
@@ -83,7 +83,7 @@ export class PersonajesService{
       aparicion: "1940-06-01",
       casa: "DC",
       tipo: "heroe",
-      actor: "Michael Hernandez"
+      actor: "Ryan Reynolds"
     },
     {
       id: 9,
@@ -93,7 +93,7 @@ export class PersonajesService{
       aparicion: "1962-08-01",
       casa: "Marvel",
       tipo: "heroe",
-      actor: "Michael Hernandez"
+      actor: "Tom Holland"
     },
     {
       id: 10,
@@ -103,7 +103,7 @@ export class PersonajesService{
       aparicion: "1974-11-01",
       casa: "Marvel",
       tipo: "heroe",
-      actor: "Michael Hernandez"
+      actor: "Hugh Jackman"
     }
   ];
 

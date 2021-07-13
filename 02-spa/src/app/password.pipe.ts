@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class PasswordPipe implements PipeTransform {
 
-  transform(value: string, estado?: boolean): any {
+  transform(value: string, estado: boolean): any {
     if (value === undefined) {
       return value;
     }
